@@ -1,7 +1,11 @@
-import Hello from '~/components/Hello';
+import '~/App.css';
 
 function App() {
-  return <Hello />;
+  return (
+    <div className='App'>
+      <h1>Israel Blog</h1>
+    </div>
+  );
 }
 
 export default App;
